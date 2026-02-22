@@ -1,0 +1,10 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of assets that aren't useful for search results
+Disallow: /js/
+Disallow: /css/
+
+# Sitemap location
+Sitemap: https://bewohnervonrorbas.brokensoftware.work/sitemap.xml
