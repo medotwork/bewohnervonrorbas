@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar - My Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/calendar.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 data-i18n="page-title">Event Calendar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="calendar.html" data-i18n="nav-calendar">Calendar</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li>
+                    <select id="language-selector" class="language-selector">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sections-container">
+            <section class="events-section">
+                <div class="section-header">
+                    <h2 data-i18n="upcoming-events">Upcoming Trash Days</h2>
+                    <div class="filter-container">
+                        <div class="filter-row">
+                            <label>
+                                <input type="checkbox" id="next-7-days-filter" class="date-range-checkbox">
+                                <span data-i18n="filter-next-7-days">Next 7 Days Only</span>
+                            </label>
+                        </div>
+                        <div class="filter-row">
+                            <label data-i18n="filter-label">Filter by category:</label>
+                            <div id="category-filter" class="category-checkboxes"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="calendar-container">
+                    <p data-i18n="loading-calendar">Loading calendar...</p>
+                </div>
+            </section>
+            <div class="right-column">
+                <section class="download-section">
+                    <h2 data-i18n="download-title">Download Calendar</h2>
+                    <div class="download-container">
+                        <p data-i18n="download-description">Subscribe to or download the full calendar with all events</p>
+                        <a href="../public/calendar.ics" download="calendar.ics" class="download-btn" data-i18n="download-button">Download ICS File</a>
+                        <button id="download-filtered-btn" class="download-btn download-btn-secondary" data-i18n="download-filtered-button">Download Filtered Events</button>
+                    </div>
+                </section>
+                <section class="notice-section">
+                    <h2 data-i18n="notice-title">⚠️ Notice</h2>
+                    <div class="notice-container">
+                        <p data-i18n="notice-text">This is not an official website of the Comune. The information displayed here may not contain the most recent updates.</p>
+                        <p data-i18n="notice-link-text">For the most up-to-date information, please visit:</p>
+                        <a href="https://www.rorbas.ch/abfallbewirtschaftung" target="_blank" class="notice-link">www.rorbas.ch/abfallbewirtschaftung</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p data-i18n="footer-text">Built by a neighbor</p>
+    </footer>
+</body>
+</html>

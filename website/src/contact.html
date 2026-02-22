@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Neighborhood Utilities</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 data-i18n="contact-page-title">Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                <li><a href="calendar.html" data-i18n="nav-calendar">Calendar</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contact</a></li>
+                <li>
+                    <select id="language-selector" class="language-selector">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2 data-i18n="contact-heading">Get in Touch</h2>
+            <div class="contact-container">
+                <p data-i18n="contact-intro">Have questions, suggestions, or found an issue? Feel free to reach out!</p>
+                
+                <div class="contact-info">
+                    <h3 data-i18n="contact-method-title">Contact Methods</h3>
+                    <div class="contact-method">
+                        <strong data-i18n="contact-email-label">Email:</strong>
+                        <a href="mailto:neighbor@example.com">neighbor@example.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <strong data-i18n="contact-github-label">GitHub Issues:</strong>
+                        <a href="https://github.com/yourusername/yourrepo/issues" target="_blank" data-i18n="contact-github-link">Report an issue</a>
+                    </div>
+                </div>
+
+                <div class="contact-note">
+                    <p data-i18n="contact-note">This website is maintained by a neighbor as a community service. Response times may vary.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p data-i18n="footer-text">Built by a neighbor</p>
+    </footer>
+</body>
+</html>
