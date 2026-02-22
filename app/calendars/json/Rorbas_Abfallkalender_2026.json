@@ -863,5 +863,52 @@
             "all_day": true
         }
     },
-
+    {
+        "name": "Grüngut",
+        "begin": "2026-05-02T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-05-04T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-05-04T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-05-04T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
 ]
