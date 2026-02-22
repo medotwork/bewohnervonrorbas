@@ -4,9 +4,9 @@
 // Translation data
 const translations = {
     en: {
-        'page-title': 'Event Calendar',
+        'page-title': 'Trash Collection Calendar',
         'nav-home': 'Home',
-        'nav-calendar': 'Calendar',
+        'nav-calendar': 'Trash Calendar',
         'nav-contact': 'Contact',
         'upcoming-events': 'Upcoming Trash Days',
         'loading-calendar': 'Loading calendar...',
@@ -31,9 +31,9 @@ const translations = {
         'filter-next-7-days': 'Next 7 Days Only'
     },
     de: {
-        'page-title': 'Veranstaltungskalender',
+        'page-title': 'Abfallkalender',
         'nav-home': 'Startseite',
-        'nav-calendar': 'Kalender',
+        'nav-calendar': 'Abfallkalender',
         'nav-contact': 'Kontakt',
         'upcoming-events': 'Kommende Müllabfuhrtage',
         'loading-calendar': 'Kalender wird geladen...',
