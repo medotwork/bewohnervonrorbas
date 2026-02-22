@@ -147,6 +147,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function calculateEventsPerPage() {
         // Calculate based on actual available space
         const viewportHeight = window.innerHeight;
+        const isMobile = window.innerWidth <= 768;
+        
+        // On mobile, show more events since we now have scrolling
+        if (isMobile) {
+            return 10; // Show 10 events per page on mobile
+        }
         
         // Get actual heights of elements if they exist
         const header = document.querySelector('header');

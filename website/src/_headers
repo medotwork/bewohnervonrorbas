@@ -1,0 +1,27 @@
+# Security and caching headers for Cloudflare Pages
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Cache static assets
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# ICS files - allow download
+/assets/*.ics
+  Content-Type: text/calendar; charset=utf-8
+  Content-Disposition: attachment
+  Cache-Control: public, max-age=3600
+
+# HTML files - shorter cache
+/*.html
+  Cache-Control: public, max-age=3600

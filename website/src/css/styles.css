@@ -533,3 +533,222 @@ footer {
     min-width: 120px;
     text-align: center;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    main {
+        overflow: visible;
+        flex: none;
+    }
+
+    .sections-container {
+        overflow: visible;
+        flex: none;
+    }
+
+    section {
+        overflow: visible;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    nav a {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+
+    .language-selector {
+        padding: 4px 10px;
+        font-size: 0.9em;
+    }
+
+    main {
+        padding: 0 10px;
+        margin: 10px auto;
+    }
+
+    .sections-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .right-column {
+        flex: 1 1 auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .filter-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .category-checkboxes {
+        padding: 8px;
+    }
+
+    .event {
+        padding: 15px;
+    }
+
+    .event h3 {
+        font-size: 1.2em;
+    }
+
+    .event p {
+        font-size: 0.9em;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px 10px;
+    }
+
+    .pagination-btn {
+        padding: 10px 18px;
+        font-size: 0.9em;
+    }
+
+    .page-info {
+        font-size: 1em;
+        min-width: 100px;
+    }
+
+    .download-container {
+        padding: 15px;
+    }
+
+    .download-container p {
+        font-size: 1em;
+    }
+
+    .download-btn {
+        padding: 12px 25px;
+        font-size: 1em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .notice-container {
+        padding: 5px;
+    }
+
+    .contact-section {
+        max-width: 100%;
+    }
+
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-method {
+        padding: 12px;
+    }
+
+    .contact-note {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    nav a {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .event {
+        padding: 12px;
+    }
+
+    .event h3 {
+        font-size: 1.1em;
+    }
+
+    .event p {
+        font-size: 0.85em;
+    }
+
+    .download-btn {
+        padding: 10px 20px;
+        font-size: 0.95em;
+    }
+
+    .pagination-btn {
+        padding: 8px 15px;
+        font-size: 0.85em;
+    }
+
+    .page-info {
+        font-size: 0.9em;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .filter-row label {
+        padding: 4px 12px;
+        font-size: 0.9em;
+    }
+
+    .category-checkbox-label {
+        padding: 4px 8px;
+        font-size: 0.85em;
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "bewohnervonrorbas-website",
+  "version": "1.0.0",
+  "description": "Neighborhood utilities website deployed to Cloudflare Pages",
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "preview": "bash deploy.sh preview"
+  },
+  "keywords": [],
+  "author": "medotwork",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
