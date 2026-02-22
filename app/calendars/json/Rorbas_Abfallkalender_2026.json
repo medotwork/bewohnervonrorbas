@@ -917,7 +917,7 @@
         "description": "test",
         "alarms": [],
         "categories": [
-            "Container"
+            "Papier"
         ],
         "options": {
             "all_day": true
