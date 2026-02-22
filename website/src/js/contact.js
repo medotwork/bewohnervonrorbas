@@ -3,7 +3,7 @@ const translations = {
     en: {
         'contact-page-title': 'Contact',
         'nav-home': 'Home',
-        'nav-calendar': 'Calendar',
+        'nav-calendar': 'Trash Calendar',
         'nav-contact': 'Contact',
         'contact-heading': 'Get in Touch',
         'contact-intro': 'Have questions, suggestions, or found an issue? Feel free to reach out!',
@@ -17,7 +17,7 @@ const translations = {
     de: {
         'contact-page-title': 'Kontakt',
         'nav-home': 'Startseite',
-        'nav-calendar': 'Kalender',
+        'nav-calendar': 'Abfallkalender',
         'nav-contact': 'Kontakt',
         'contact-heading': 'Kontaktieren Sie uns',
         'contact-intro': 'Haben Sie Fragen, Vorschläge oder ein Problem gefunden? Melden Sie sich gerne!',

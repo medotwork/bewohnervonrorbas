@@ -3,7 +3,7 @@ const translations = {
     en: {
         'home-page-title': 'Neighborhood Utilities',
         'nav-home': 'Home',
-        'nav-calendar': 'Calendar',
+        'nav-calendar': 'Trash Calendar',
         'nav-contact': 'Contact',
         'home-welcome': 'Welcome',
         'home-description': 'This website provides useful utilities for neighbors, including a trash collection calendar.',
@@ -13,7 +13,7 @@ const translations = {
     de: {
         'home-page-title': 'Nachbarschafts-Tools',
         'nav-home': 'Startseite',
-        'nav-calendar': 'Kalender',
+        'nav-calendar': 'Abfallkalender',
         'nav-contact': 'Kontakt',
         'home-welcome': 'Willkommen',
         'home-description': 'Diese Website bietet nützliche Tools für Nachbarn, einschließlich eines Müllabfuhrkalenders.',
