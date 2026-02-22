@@ -610,6 +610,258 @@
         "options": {
             "all_day": true
         }
-    }
+    },
+    {
+        "name": "Grüngut",
+        "begin": "2026-04-01T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-04-02T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-04-02T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-04-02T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Grüngut",
+        "begin": "2026-04-08T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-04-10T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-04-10T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-04-10T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Grüngut",
+        "begin": "2026-04-15T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-04-17T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-04-17T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-04-17T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Karton",
+        "begin": "2026-04-17T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Karton"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Grüngut",
+        "begin": "2026-04-22T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-04-24T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-04-24T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-04-24T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Grüngut",
+        "begin": "2026-04-29T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Grüngut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Kehricht",
+        "begin": "2026-04-30T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Kehricht"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Sperrgut",
+        "begin": "2026-04-30T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Sperrgut"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
+    {
+        "name": "Container",
+        "begin": "2026-04-30T06:00:00+00:00",
+        "description": "test",
+        "alarms": [],
+        "categories": [
+            "Container"
+        ],
+        "options": {
+            "all_day": true
+        }
+    },
 
 ]
